@@ -1,0 +1,1 @@
+$process = Start-Process -FilePath ccsetup.exe ‑ArgumentList "/S /NoPostReboot _?=ccsetup.exe" -Wait -PassThru $process.ExitCode
